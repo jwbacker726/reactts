@@ -11,8 +11,9 @@ var Header = React.createClass({
                         <img style={{width: 50 + 'px' }} src="images/logo.jpg" />
                     </a>
                     <ul className="nav navbar-nav">
-                        <li><a href="/">Home</a></li>
+                        <li><a href="/#">Home</a></li>
                         <li><a href="/#about">About</a></li>
+                        <li><a href="/#authors">Authors</a></li>
                         <li><a href="/#contact">Contact</a></li>
                     </ul>
                 </div>
