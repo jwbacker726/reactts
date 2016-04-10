@@ -5,7 +5,7 @@ import * as React from 'react';
 
 class ContactPage extends React.Component<IContactPageProps, IContactPageState> {
 
-  constructor(props : IContactPageProps){
+  constructor(props : IContactPageProps) {
     super(props);
     // http://realfiction.net/2015/08/27/Porting-a-react-application-to-typescript/
     this.state = { name: "Bob", address: "892 Main st.", phone: "0293-0394", favoriteColor: "Orange" };

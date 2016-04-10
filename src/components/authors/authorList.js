@@ -3,6 +3,10 @@
 var React = require('react');
 
 var AuthorList = React.createClass({
+    // Note: Prop validation isn't run in the production (minified) version of React
+    propTypes: {
+      authors: React.PropTypes.array.isRequired
+    },
     render: function() {
         var createAuthorRow = function(author) {
             return (
